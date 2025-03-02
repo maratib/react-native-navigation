@@ -79,3 +79,10 @@ export default function App() {
   );
 }
 ```
+
+## Run app
+
+```bash
+npm run start
+npm run android
+```
