@@ -30,6 +30,8 @@ npm install @react-navigation/native @react-navigation/native-stack
 npx pod-install ios
 ```
 
+Note: Open `MyAppName.xcworkspace` instead of `MyAppName.xcodeproj` in xcode to run app
+
 ## MainActivity setup
 
 ```kotlin
@@ -84,5 +86,16 @@ export default function App() {
 
 ```bash
 npm run start
+npm start -- --reset-cache
 npm run android
+```
+
+## VSCode settings
+
+```json
+{
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.completion.enabled": false,
+  "java.autobuild.enabled": false
+}
 ```

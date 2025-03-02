@@ -1,5 +1,5 @@
 {
-  "name": "reactNativeNavigation",
+  "name": "react-native-navigation",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.2.1",
     "@react-navigation/native": "^7.0.15",
     "@react-navigation/native-stack": "^7.2.1",
     "react": "19.0.0",
