@@ -21,7 +21,15 @@ npx @react-native-community/cli@latest init navigation
 
 ```bash
 npm install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native @react-navigation/native-stack
+
+# For navigation
+npm install @react-navigation/native
+
+# For stack navigation
+npm install @react-navigation/native-stack
+
+# For bottom navigation tabs
+npm install @react-navigation/bottom-tabs
 ```
 
 ## for iOS
